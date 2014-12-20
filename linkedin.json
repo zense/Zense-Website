@@ -1,0 +1,23 @@
+{
+    "data": [{
+        "name": "Vikas Yadav",
+        "image_url": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/7/005/058/056/015926b.jpg"
+        "contact_info": [{
+            "facebook": ""
+            "gmail": ""
+            "linkedin": ""
+
+        }]
+
+    }, {
+        "name": "Samyak Upadhyay",
+        "image_url": "https://media.licdn.com/mpr/mpr/shrink_200_200/p/2/005/054/383/36f0759.jpg",
+        "contact_info": [{
+            "facebook": ""
+            "gmail": ""
+            "linkedin": ""
+
+        }]
+
+    }],
+}
