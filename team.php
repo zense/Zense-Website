@@ -68,359 +68,47 @@ $test =3;
 
 
 <section id="team">
-    <div class="container">
-        <div class="row">
-            <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the Team</h1>
-            <p class="text-center wow fadeInDown" data-wow-duration="400ms" data-wow-delay="400ms">Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br>
-                Ut enim ad minim veniam, quis nostrud </p>
-            <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms" data-wow-delay="400ms">
-                <!-- Indicators -->
-                <ol class="carousel-indicators visible-xs">
-                    <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
-                    <li data-target="#team-carousel" data-slide-to="1"></li>
-                </ol>
-                <!-- Wrapper for slides -->
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>Vikas Yadav</h2>
-                                    <p>Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/2.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2> Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
+        <div class="container">
+            <div class="row">
+                <h1 class="title text-center wow fadeInDown" data-wow-duration="500ms" data-wow-delay="300ms">Meet the Team</h1>
+                
+                <div id="team-carousel" class="carousel slide wow fadeIn" data-ride="carousel" data-wow-duration="400ms" data-wow-delay="400ms">
+                    <!-- Indicators -->
+                    <ol class="carousel-indicators visible-xs">
+                        <li data-target="#team-carousel" data-slide-to="0" class="active"></li>
+                        <li data-target="#team-carousel" data-slide-to="1"></li>
+                    </ol>
+                    <!-- Wrapper for slides -->
+                    <h1>Core Team</h1>
+                    <div class="container">
+                        <div class="item active" id="core">
+                            
                         </div>
                     </div>
-                    <div class="item">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/4.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
+                    <hr>
+                    
+                    <h1>Members</h1>
+                    <div class="container">
+                        <div class="item active" id="members">
+                            
                         </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
+					</div>
+					<hr>
+					<h1>Mentors</h1>
+                    <div class="container">
+                        <div class="item active" id="mentors">
+                            
                         </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/2.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
+					</div>
+					
+					
+                    <!-- Controls -->
+                    <a class="left team-carousel-control hidden-xs" href="#team-carousel" data-slide="prev">left</a>
+                    <a class="right team-carousel-control hidden-xs" href="#team-carousel" data-slide="next">right</a>
                 </div>
-
-                <div class="carousel-inner">
-                    <div class="item active">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>Vikas Yadav</h2>
-                                    <p>Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/2.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2> Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="item">
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/4.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/3.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/2.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col-sm-3 col-xs-6">
-                            <div class="team-single-wrapper">
-                                <div class="team-single">
-                                    <div class="person-thumb">
-                                        <img src="images/aboutus/1.jpg" class="img-responsive" alt="">
-                                    </div>
-                                    <div class="social-profile">
-                                        <ul class="nav nav-pills">
-                                            <li><a href="#"><i class="fa fa-facebook"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-twitter"></i></a></li>
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>
-                                        </ul>
-                                    </div>
-                                </div>
-                                <div class="person-info">
-                                    <h2>John Doe</h2>
-                                    <p>CEO &amp; Developer</p>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- Controls -->
-                <a class="left team-carousel-control hidden-xs" href="#team-carousel" data-slide="prev">left</a>
-                <a class="right team-carousel-control hidden-xs" href="#team-carousel" data-slide="next">right</a>
             </div>
         </div>
-    </div>
-</section>
+    </section>
 <!--/#team-->
 <!--home-slider-->
 
@@ -434,6 +122,133 @@ include "assets/footer.php"
 
 <!--footer-->
 <script type="text/javascript" src="js/jquery.js"></script>
+<script>
+$(document).ready(function(){
+        var get_mentors = function(){
+            $.ajax({
+                type: 'GET',
+                url: 'https://dl.dropboxusercontent.com/s/0n8uh9fnmcen09e/team.json?dl=0',
+                    dataType: 'json',
+                    encode: true
+            })
+
+            .done(function(data){
+                console.log(data);
+                var i=0;
+                var ap = '<div class="row">'
+                $.each(data.data[0].core, function(key, item){
+					ap += '<div class="col-sm-3 col-xs-6">\
+                            <div class="team-single-wrapper">\
+                                <div class="team-single">\
+                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    </div>\
+                                    <div class="social-profile">\
+                                        <ul class="nav nav-pills">\
+                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                        </ul>\
+                                    </div>\
+                                </div>\
+                                <div class="person-info">\
+                                    <h2>'+item.name+'</h2>\
+                                    <p>'+item.designation+'</p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                        i+=1;
+                        if(i%4==0){
+								ap+='</div>'
+							}
+                });
+                if(i%4!=0) ap+='</div>'	;
+                $('#core').append(ap)
+                
+                
+                i=0;
+                ap = '<div class="row">'
+                $.each(data.data[0].members, function(key, item){
+					ap += '<div class="col-sm-3 col-xs-6">\
+                            <div class="team-single-wrapper">\
+                                <div class="team-single">\
+                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    </div>\
+                                    <div class="social-profile">\
+                                        <ul class="nav nav-pills">\
+                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                        </ul>\
+                                    </div>\
+                                </div>\
+                                <div class="person-info">\
+                                    <h2>'+item.name+'</h2>\
+                                    <p>'+item.designation+'</p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                        i+=1;
+                        if(i%4==0){
+								ap+='</div>'
+							}
+                });
+                if(i%4!=0) ap+='</div>'	;
+                $('#members').append(ap)
+                
+                i=0;
+                ap = '<div class="row">'
+                $.each(data.data[0].mentors, function(key, item){
+					ap += '<div class="col-sm-3 col-xs-6">\
+                            <div class="team-single-wrapper">\
+                                <div class="team-single">\
+                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    </div>\
+                                    <div class="social-profile">\
+                                        <ul class="nav nav-pills">\
+                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                        </ul>\
+                                    </div>\
+                                </div>\
+                                <div class="person-info">\
+                                    <h2>'+item.name+'</h2>\
+                                    <p>'+item.designation+'</p>\
+                                </div>\
+                            </div>\
+                        </div>';
+                        i+=1;
+                        if(i%4==0){
+								ap+='</div>'
+							}
+                });
+                if(i%4!=0) ap+='</div>'	;
+                $('#mentors').append(ap)
+                
+                
+                
+                
+            })
+            .fail(function(data){
+                alert("ajax failed");
+                console.log(data);
+            });
+
+        };
+        get_mentors()
+	});
+
+</script>
+
 <script type="text/javascript" src="js/bootstrap.min.js"></script>
 <script type="text/javascript" src="js/lightbox.min.js"></script>
 <script type="text/javascript" src="js/wow.min.js"></script>
