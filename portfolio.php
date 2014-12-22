@@ -93,6 +93,57 @@ $test =2;
                 <h1>Completed Projects</h1> 
                 <br>
                 <div class="portfolio-items">
+					<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><a data-toggle="modal" data-target="#modal3"><i class="fa fa-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <h2>E-Cell Website</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><a data-toggle="modal" data-target="#modal4"><i class="fa fa-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <h2>NIOS Website</h2>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded mobile">
+                        <div class="portfolio-wrapper">
+                            <div class="portfolio-single">
+                                <div class="portfolio-thumb">
+                                    <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
+                                </div>
+                                <div class="portfolio-view">
+                                    <ul class="nav nav-pills">
+                                        <li><a data-toggle="modal" data-target="#modal5"><i class="fa fa-link"></i></a></li>
+                                    </ul>
+                                </div>
+                            </div>
+                            <div class="portfolio-info ">
+                                <h2>Akshaya Patra Foundation Mobile App</h2>
+                            </div>
+                        </div>
+                    </div>
 					<div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded logos">
                         <div class="portfolio-wrapper">
                             <div class="portfolio-single">
@@ -151,57 +202,7 @@ $test =2;
                     <br>
                     <h1>Ongoing Projects</h1> 
                     <br>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/3.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a data-toggle="modal" data-target="#modal3"><i class="fa fa-link"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>E-Cell Website</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item design logos">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/4.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a data-toggle="modal" data-target="#modal4"><i class="fa fa-link"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>NIOS Website</h2>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-xs-6 col-sm-4 col-md-3 portfolio-item branded mobile">
-                        <div class="portfolio-wrapper">
-                            <div class="portfolio-single">
-                                <div class="portfolio-thumb">
-                                    <img src="images/portfolio/5.jpg" class="img-responsive" alt="">
-                                </div>
-                                <div class="portfolio-view">
-                                    <ul class="nav nav-pills">
-                                        <li><a data-toggle="modal" data-target="#modal5"><i class="fa fa-link"></i></a></li>
-                                    </ul>
-                                </div>
-                            </div>
-                            <div class="portfolio-info ">
-                                <h2>Akshaya Patra Foundation Mobile App</h2>
-                            </div>
-                        </div>
-                    </div>
+                    
                 </div>
             </div>
         </div>

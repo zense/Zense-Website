@@ -145,11 +145,11 @@ $(document).ready(function(){
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\
-                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
-                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
-                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
-                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                            <li><a href="'+item.contact.facebook+'" target="__blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'" target="__blank"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'" target="__blank"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'" target="__blank"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus" target="__blank"></i></a></li>\
                                         </ul>\
                                     </div>\
                                 </div>\
@@ -179,11 +179,11 @@ $(document).ready(function(){
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\
-                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
-                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
-                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
-                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                           <li><a href="'+item.contact.facebook+'" target="__blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'" target="__blank"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'" target="__blank"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'" target="__blank"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus" target="__blank"></i></a></li>\
                                         </ul>\
                                     </div>\
                                 </div>\
@@ -212,11 +212,11 @@ $(document).ready(function(){
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\
-                                            <li><a href="'+item.contact.facebook+'" target="_blank"><i class="fa fa-facebook"></i></a></li>\
-                                            <li><a href="'+item.contact.github+'"><i class="fa fa-github"></i></a></li>\
-                                            <li><a href="'+item.contact.linkedIn+'"><i class="fa fa-linkedin"></i></a></li>\
-                                            <li><a href="'+item.contact.twitter+'"><i class="fa fa-twitter"></i></a></li>\
-                                            <li><a href="#"><i class="fa fa-google-plus"></i></a></li>\
+                                            <li><a href="'+item.contact.facebook+'" target="__blank"><i class="fa fa-facebook"></i></a></li>\
+                                            <li><a href="'+item.contact.github+'" target="__blank"><i class="fa fa-github"></i></a></li>\
+                                            <li><a href="'+item.contact.linkedIn+'" target="__blank"><i class="fa fa-linkedin"></i></a></li>\
+                                            <li><a href="'+item.contact.twitter+'" target="__blank"><i class="fa fa-twitter"></i></a></li>\
+                                            <li><a href="#"><i class="fa fa-google-plus" target="__blank"></i></a></li>\
                                         </ul>\
                                     </div>\
                                 </div>\
