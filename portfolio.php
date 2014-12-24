@@ -28,6 +28,14 @@ $test =2;
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
    
 	<script type="text/javascript" src="js/jquery.js"></script>
+	<script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1449319895336334&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+	</script>
 	<style type="text/css">
 	span.stars, span.stars span {
 		display: block;
@@ -62,7 +70,9 @@ $test =2;
                 var ap = '<div class="row">'
                 var bp = '<div class="row">'
                 $.each(data.projects, function(key, item){
-					var d= '<a href="'+item.url+'" target="__blank" class="btn btn-common uppercase">Check this out!</a>'
+                	var d= '';
+                	if(item.url=='') d= '<a href="#" class="btn btn-common uppercase">Not Available</a>';
+					else d= '<a href="'+item.url+'" target="__blank" class="btn btn-common uppercase">Check this out!</a>'
 					$('body').append('<div class="modal fade" id="modal'+item.id+'" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" area-hidden="false">\
             <div class="modal-dialog">\
                 <div class="modal-content">\
@@ -79,7 +89,7 @@ $test =2;
                             <div class="project-name overflow">\
                                 <h2 class="bold">'+item.name+'</h2>\
                                 <ul class="nav navbar-nav navbar-default">\
-                                    <li><a href="#"><i class="fa fa-clock-o"></i>July,2014</a></li>\
+                                    <li><a href="#"><i class="fa fa-clock-o"></i>'+item.date+'</a></li>\
                                 </ul>\
                             </div>\
                             <div class="project-info overflow">\
@@ -173,9 +183,7 @@ $test =2;
                 <div class="col-sm-12 overflow">
                    <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a target="blank" href="https://www.facebook.com/zense.dev"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="blank" href="https://plus.google.com/+ZenseCoIndev/"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a target="blank" href="https://www.linkedin.com/groups/Zense-6731377"><i class="fa fa-linkedin"></i></a></li>
+                            <?php include 'assets/social_media.php' ?>
                         </ul>
                     </div> 
                 </div>
@@ -216,7 +224,10 @@ $test =2;
                         <h2>Our community has a bunch of cool projects and we have many more to come. Spend some time here and check out our work :)</h2>
                         
                     </div>
-                    <!--<a target="blank" href="https://www.facebook.com/zense.dev"><img src="" class="slider-hill" alt="slider image" style="width:400px;height:auto"></a>-->
+                    <div class="slider-hill" style="width:623px;height:auto">
+                    
+                    <div class="fb-like-box" data-href="https://www.facebook.com/zense.dev" data-width="623px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
+                    </div>
                 </div>
             </div>
         </div>

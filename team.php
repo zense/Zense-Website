@@ -33,9 +33,7 @@ $test =3;
             <div class="col-sm-12 overflow">
                 <div class="social-icons pull-right">
                     <ul class="nav nav-pills">
-                        <li><a target="blank" href="https://www.facebook.com/zense.dev"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="blank" href="https://plus.google.com/+ZenseCoIndev/"><i class="fa fa-google-plus"></i></a></li>
-                        <li><a target="blank" href="https://www.linkedin.com/groups/Zense-6731377"><i class="fa fa-linkedin"></i></a></li>
+                        <?php include 'assets/social_media.php' ?>
                     </ul>
                 </div>
             </div>
@@ -140,8 +138,8 @@ $(document).ready(function(){
 					ap += '<div class="col-sm-3 col-xs-6">\
                             <div class="team-single-wrapper">\
                                 <div class="team-single">\
-                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
-                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    <div class="person-thumb" style="width:100%; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  style="width:100%;" class="img-responsive" alt="">\
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\
@@ -161,7 +159,7 @@ $(document).ready(function(){
                         </div>';
                         i+=1;
                         if(i%4==0){
-								ap+='</div>'
+								ap+='</div><br>'
 							}
                 });
                 if(i%4!=0) ap+='</div>'	;
@@ -174,8 +172,8 @@ $(document).ready(function(){
 					ap += '<div class="col-sm-3 col-xs-6">\
                             <div class="team-single-wrapper">\
                                 <div class="team-single">\
-                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
-                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    <div class="person-thumb" style="width:100%; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  style="width:100%" class="img-responsive" alt="">\
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\
@@ -207,8 +205,8 @@ $(document).ready(function(){
 					ap += '<div class="col-sm-3 col-xs-6">\
                             <div class="team-single-wrapper">\
                                 <div class="team-single">\
-                                    <div class="person-thumb" style="width:auto; height:200px; position: relative; overflow:hidden">\
-                                        <img src="'+item.image_url+'"  class="img-responsive" alt="">\
+                                    <div class="person-thumb" style="width:100%; height:200px; position: relative; overflow:hidden">\
+                                        <img src="'+item.image_url+'"  style="width:100%" class="img-responsive" alt="">\
                                     </div>\
                                     <div class="social-profile">\
                                         <ul class="nav nav-pills">\

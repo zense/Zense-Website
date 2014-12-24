@@ -22,6 +22,14 @@ $test =1;
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
     <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
+    <script>(function(d, s, id) {
+		  var js, fjs = d.getElementsByTagName(s)[0];
+		  if (d.getElementById(id)) return;
+		  js = d.createElement(s); js.id = id;
+		  js.src = "//connect.facebook.net/en_GB/sdk.js#xfbml=1&appId=1449319895336334&version=v2.0";
+		  fjs.parentNode.insertBefore(js, fjs);
+		}(document, 'script', 'facebook-jssdk'));
+						</script>
 </head><!--/head-->
 <body>
 	<header id="header">
@@ -33,9 +41,7 @@ $test =1;
                 <div class="col-sm-12 overflow">
                    <div class="social-icons pull-right">
                         <ul class="nav nav-pills">
-                            <li><a target="blank" href="https://www.facebook.com/zense.dev"><i class="fa fa-facebook"></i></a></li>
-                            <li><a target="blank" href="https://plus.google.com/+ZenseCoIndev/"><i class="fa fa-google-plus"></i></a></li>
-                            <li><a target="blank" href="https://www.linkedin.com/groups/Zense-6731377"><i class="fa fa-linkedin"></i></a></li>
+                            <?php include 'assets/social_media.php' ?>
                         </ul>
                     </div> 
                 </div>
@@ -66,6 +72,7 @@ $test =1;
     </header>
     <!--header-->
     <section id="home-slider">
+    
         <div class="container">
             <div class="row">
                 <div class="main-slider">
@@ -73,6 +80,8 @@ $test =1;
                         <h1><b>Welcome to the official home page of the Zense community.</b></h1>
                         <p>Find out anything and everything about us right here and stay in touch with the latest news :)</p>
                     </div>
+                    
+						
                     <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image" style="width:623px;height:auto">
                 </div>
             </div>
@@ -87,6 +96,8 @@ $test =1;
                 <div class="about-us">
                     <div class="col-sm-7 wow fadeInLeft" data-wow-duration="1000ms" data-wow-delay="300ms">
                         <h1 class="bold">About Zense</h1>
+                        <div id="fb-root"></div>
+                        
                         <div class="row">
                             <div class="col-sm-10">
                                 <p>Zense is a community of developers run and managed by the students of IIIT Bangalore.<br> <br> Our aim is to unite passionate developers and provide them a platform to collaborate and innovate with other geeky folks.</p>
@@ -94,7 +105,7 @@ $test =1;
                         </div>
                     </div>
                     <div class="col-sm-5 wow fadeInRight" data-wow-duration="1000ms" data-wow-delay="300ms">
-                        <img src="images/aboutus/6.png" class="img-responsive" alt="">
+                        <div class="fb-like-box" data-href="https://www.facebook.com/zense.dev" data-width="400px" data-colorscheme="light" data-show-faces="true" data-header="true" data-stream="false" data-show-border="true"></div>
                     </div>
                 </div>
             </div>
