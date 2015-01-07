@@ -121,7 +121,7 @@ $test =2;
                                 </div>\
                             </div>\
                             <div class="portfolio-info ">\
-                                <h2>'+item.name+'</h2>\
+                                <h2><strong>'+item.name+'</strong></h2>\
                             </div>\
                     </div></div>';
                         i+=1;
@@ -144,7 +144,7 @@ $test =2;
                                 </div>\
                             </div>\
                             <div class="portfolio-info ">\
-                                <h2>'+item.name+'</h2>\
+                                <h2><strong>'+item.name+'</strong></h2>\
                             </div>\
                     </div></div>';
                     
